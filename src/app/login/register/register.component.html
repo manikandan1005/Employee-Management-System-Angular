@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="center " style="margin-top:100px ;">
+        <div class="box p-5" >
+        <label class="form-lablel" for="">User Name</label>
+        <input class="form-control" type="text" name="User Name" [(ngModel)]="register.name" >
+        <label class="form-lablel" for="">Pass word</label>
+        <input class="form-control" type="password" name="Pass word" [(ngModel)]="register.pass" >
+        <label class="form-lablel" for="">Pass word</label>
+        <input class="form-control" type="password" name="Pass word" [(ngModel)]="register.conPass">
+        <div class="center m-1">
+            <button class="btn btn-outline-success" (click)="sigIn()">signin</button>
+        </div>
+        
+        </div>
+    </div>
+</div>

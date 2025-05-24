@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border: 2px solid rgb(14, 249, 237);
+    border-radius: 15px;
+}

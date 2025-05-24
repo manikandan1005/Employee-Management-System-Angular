@@ -1,0 +1,38 @@
+
+
+<div class="container ">
+    <div class="card p-4 my-3">
+      
+        <div class="card-body  p-4">
+            <form class="d-flex " >
+                <div class="d-flex">
+                    <label for="">First Name</label>
+                <input class="form-control" type="text" name="Name" [(ngModel)]="addEmp.name" id="">
+                <label for="">Last Name</label>
+                <input class="form-control" type="text" name="LastName" [(ngModel)]="addEmp.lastname" id="">
+                </div>
+                <label for="">Role</label>
+                <input class="form-control" type="text" name="role" [(ngModel)]="addEmp.role" id="">
+                <div class="d-flex">
+                    <label for="">Position</label>
+                    <input class="form-control" type="text" name="position" [(ngModel)]="addEmp.position" id="">
+                    <select name="Level" [(ngModel)]="addEmp.level" class="form-select" id="">
+                        <option value="Intern">Intern</option>
+                        <option value="Trinee">Trinee</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Senior">Senior</option>
+                    </select>
+                </div>
+                <div class="d-flex">
+                    <label for="">Work from office</label>
+                <input  type="checkbox" name="workStatus" [(ngModel)]="addEmp.workStatus" id="">
+                </div>
+                <div class="center">
+                    <button class="btn btn-outline-success" (click)="update()">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
